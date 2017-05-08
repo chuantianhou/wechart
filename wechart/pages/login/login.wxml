@@ -1,0 +1,20 @@
+<view class="content">
+	<view class="userinfo">
+		<image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+	</view>
+	<form bindsubmit="formSubmit">
+		<view class="input-area">
+			<view class="input-log">
+				<image class="userinfo-logIcon" src="../../images/logIcon.png"></image>
+				<input id="username" name="loginName" maxlength='40' type="text" placeholder="请输入账号"/>
+			</view>
+			<view class="input-log">
+				<image class="userinfo-logIcon" src="../../images/pwdIcon.png"></image>
+				<input id="password" name="pwd" type="password" placeholder="请输入密码"/>
+			</view>
+		</view>
+		<view class="button-area">
+			<button disabled="{{ disabled }}" style="background-color:{{ loginBtnBgBgColor }}" form-type="submit" loading="{{ btnLoading }}">{{ loginBtnTxt }}</button>
+		</view>
+	</form>
+</view>

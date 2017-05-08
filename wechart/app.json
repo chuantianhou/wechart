@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/main/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱包办",
+    "navigationBarTextStyle":"black"
+  }
+}

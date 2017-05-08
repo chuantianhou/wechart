@@ -1,0 +1,4 @@
+<View class="contain">
+	<image class="img" src="{{src}}"></image>
+	<button class="btn" bindtap="logOut">退出登录</button>
+</View>
